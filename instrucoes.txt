@@ -1,0 +1,3 @@
+roslaunch teleop_twist_joy teleop.launch
+catkin_make ardu_out_firmware_move-upload
+rosrun rosserial_python serial_node.py /dev/ttyUSB0
